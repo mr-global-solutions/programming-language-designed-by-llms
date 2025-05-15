@@ -15,7 +15,7 @@ Help me to understand the main aspects of NextLang by describing it with example
 ```
 ## Models and Responses
 * `Claude 3.7 Sonnet` in `Explanatory` mode
-  * See [Claude full response](./claude/claude-response.txt)
+  * See [Claude full response](./claude/claude-response.md)
 * `Grok 3` in `Think` mode
   * See Grok full response
 * `Gemini 2.5 Pro (preview)`
