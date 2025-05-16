@@ -1,6 +1,9 @@
 # We asked LLMs what Programming Language they would design
 ## Intro
 We ran an interesting experiment, asking major LLMs what kind of programming language they would design for machine-to-machine interaction.
+## TLDR
+You can find an easy-to-digest article on [our website](https://www.mrglobal.solutions/blog/we-asked-llms-what-programming-language-they-would-design),
+which summarises the main learnings from this repo.
 ## Prompt
 ```
 You're an experienced software architect in charge of designing from scratch a new programming language - called NextLang - for the next generation of LLMs.
