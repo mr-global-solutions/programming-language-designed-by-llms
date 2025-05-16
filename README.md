@@ -21,7 +21,7 @@ Help me to understand the main aspects of NextLang by describing it with example
 * `Gemini 2.5 Pro (preview)`
   * See [Gemini full response](./gemini/gemini-results.md)
 * `OpenAI o4-mini` in `Extendeed Thinking` mode
-  * See [ChatGPT full response](./openai/openai-results.md)
+  * See [ChatGPT full response](./openai-chatgpt/openai-chatgpt-results.md)
 * `Llama 4`
   * See [Llama full response](./llama/llama-results.md)
 * `DeepSeek` in `DeepThink R1` mode
