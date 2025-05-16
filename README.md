@@ -26,6 +26,87 @@ Help me to understand the main aspects of NextLang by describing it with example
   * See [Llama full response](./llama/llama-response.md)
 * `DeepSeek` in `DeepThink R1` mode
   * See [DeepSeek full response](./deepseek/deepseek-response.md)
+
+## Comparative Analysis
+### Comparative Table
+
+| Feature | Claude | DeepSeek | Gemini | Grok | Llama | OpenAI ChatGPT |
+|---------|--------|----------|--------|------|-------|----------------|
+| **Core Paradigm** | Intent-based, declarative programming with semantic precision | JSON-like declarative syntax with strict schemas | S-expressions for structured, semantically rich data streams | Minimalist functional approach with compact syntax | Minimalist syntax with strong typing | Binary-optimized serialization with explicit orchestration |
+| **Type System** | Type system based on semantic meaning, beyond structural typing | Strict+dynamic hybrid with runtime flexibility | Strong, static typing with self-describing data | Strong typing with native data structures | Strong, static typing | Gradual typing with protocol contracts |
+| **Control Flow** | Context-aware execution, self-modifying capabilities | Auto-parallelism, stateful workflows | Declarative, event-driven with explicit state machines | First-class concurrency and asynchronous execution | Native support for asynchronous operations | Spawn, await, select primitives |
+| **Knowledge Representation** | Native knowledge representation (ontologies, relations) | Interoperability first with embedded foreign functions | Capability discovery and registration | AI-specific primitives | Integration with knowledge graphs | Composable DSL layers |
+| **Error Handling** | Built-in verification and reasoning | Auto-retry and rollback features | Standardized error codes and rich error reporting | Robust error handling with retries and fallbacks | Not extensively detailed | Select statement with timeout and fallback |
+| **Security** | Cross-domain translation layer | Security and autonomy by design | Zero-trust model with fine-grained permissions | Built-in security features | Not extensively detailed | Explicit effect annotations (@io) |
+| **Execution Model** | Hybrid with declarative, optimization, and runtime layers | Auto-optimizing compiler | Protocol negotiation for communication | Self-modification capabilities | Self-optimization | Binary-first tokenization |
+| **Sample Syntax Example** | S-expression-like with explicit constraints | YAML-like declarative structure | Deeply nested S-expressions with rich metadata | Functional notation (COND, ASYNC) | Fn-prefix, arrow syntax | Binary messages with explicit annotations |
+
+### Key Similarities Across Responses
+
+1. **Machine Efficiency Over Human Readability**: All LLMs emphasized that NextLang should prioritize efficient machine-to-machine communication rather than human readability.
+
+2. **Declarative Approach**: Most models suggested a declarative approach where AIs specify what they want to achieve rather than how to achieve it, reducing ambiguity and implementation details.
+
+3. **Strong Typing**: All models emphasized the importance of strong, explicit typing to ensure reliable communication between AI systems.
+
+4. **Built-in Concurrency**: Every model identified native support for asynchronous operations and parallelism as crucial for efficient AI cooperation.
+
+5. **Semantic Precision**: All models stressed the need for unambiguous semantics to eliminate interpretation errors between AI systems.
+
+6. **Self-describing Data**: Most models proposed self-describing data formats with embedded metadata for improved interoperability.
+
+7. **Security by Design**: Most models emphasized the importance of built-in security mechanisms for autonomous AI interaction.
+
+### Unique Differentiators
+
+1. **Claude**: Most comprehensive focus on knowledge representation with ontologies and inference rules as first-class language features. Also emphasized cross-domain translation capabilities.
+
+2. **DeepSeek**: Strongest emphasis on interoperability with existing systems through native protocol support and embedded foreign functions.
+
+3. **Gemini**: Most detailed description of capability discovery mechanisms where AIs can advertise their capabilities to other AIs. Also provided the most extensive examples.
+
+4. **Grok**: Most focused on minimalist syntax and AI-specific primitives optimized for machine efficiency.
+
+5. **Llama**: Simplest, most concise approach with emphasis on minimalism. Uniquely highlighted the integration with knowledge graphs.
+
+6. **OpenAI ChatGPT**: Most technically specific on orchestration primitives and binary-optimized design. Uniquely proposed explicit effect annotations for functions.
+
+### Analysis of Approaches
+
+1. **Syntax Preferences**: 
+   - Claude, Gemini, and partially OpenAI favored S-expression-like syntax for its tree-like structure
+   - DeepSeek leaned toward a JSON/YAML-like declarative syntax
+   - Grok proposed a functional notation
+   - Llama suggested a minimalist prefix notation
+
+2. **Data Representation**:
+   - Claude proposed semantically rich types beyond just structure
+   - Gemini emphasized self-describing data with provenance metadata
+   - OpenAI uniquely focused on binary optimization for performance
+   - DeepSeek highlighted JSON-like structures with strict schemas
+
+3. **Communication Models**:
+   - Claude emphasized a cross-domain translation layer
+   - DeepSeek focused on native protocol support
+   - Gemini detailed capability discovery and negotiation
+   - OpenAI emphasized binary-first tokenization
+
+4. **Conceptual Approach**:
+   - Claude was most philosophical, focusing on intent and semantic meaning
+   - DeepSeek was most practical, focusing on integration and performance
+   - Gemini was most comprehensive in its examples and details
+   - Grok was most focused on technical efficiency
+   - Llama was most concise and directly minimalist
+   - OpenAI was most focused on orchestration and reliability
+
+### Conclusion
+
+The responses showcase different perspectives on designing a machine-optimized programming language. While all LLMs agreed on the core principles (machine efficiency, strong typing, declarative approach), they differed significantly in their emphasis and implementation details.
+
+Claude and Gemini provided the most comprehensive responses with extensive examples, while Llama offered the most concise approach. DeepSeek emphasized practical integration with existing systems, Grok focused on minimal syntax for machine efficiency, and OpenAI ChatGPT provided the most technical details on orchestration and binary optimization.
+
+This diversity of approaches highlights the multifaceted nature of designing a language for autonomous AI systems, where different aspects (knowledge representation, interoperability, efficiency, security) can be prioritized based on specific use cases and requirements.
+
 ## Claude - Quick Overview
 ### Architecture
 * Semantic Precision
@@ -196,5 +277,3 @@ Help me to understand the main aspects of NextLang by describing it with example
  * No manual thread/async management; parallelism is implicit.  
 * Low cognitive load for AI
  * Predictable syntax and auto-correction reduce hallucination risks.
-## Comparative Table
-TBD
