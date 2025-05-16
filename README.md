@@ -19,13 +19,13 @@ Help me to understand the main aspects of NextLang by describing it with example
 * `Grok 3` in `Think` mode
   * See [Grok full response](./grok/grok-response.md)
 * `Gemini 2.5 Pro (preview)`
-  * See [Gemini full response](./gemini/gemini-results.md)
+  * See [Gemini full response](./gemini/gemini-response.md)
 * `OpenAI o4-mini` in `Extendeed Thinking` mode
-  * See [ChatGPT full response](./openai-chatgpt/openai-chatgpt-results.md)
+  * See [ChatGPT full response](./openai-chatgpt/openai-chatgpt-response.md)
 * `Llama 4`
-  * See [Llama full response](./llama/llama-results.md)
+  * See [Llama full response](./llama/llama-response.md)
 * `DeepSeek` in `DeepThink R1` mode
-  * See [DeepSeek full response](./deepseek/deepseek-results.md)
+  * See [DeepSeek full response](./deepseek/deepseek-response.md)
 ## Claude - Quick Overview
 ### Architecture
 * Semantic Precision
