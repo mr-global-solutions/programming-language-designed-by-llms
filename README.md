@@ -17,7 +17,7 @@ Help me to understand the main aspects of NextLang by describing it with example
 * `Claude 3.7 Sonnet` in `Explanatory` mode
   * See [Claude full response](./claude/claude-response.md)
 * `Grok 3` in `Think` mode
-  * See [Grok full response](./grok/grok-response.txt)
+  * See [Grok full response](./grok/grok-response.md)
 * `Gemini 2.5 Pro (preview)`
   * See [Gemini full response](./gemini/gemini-results.md)
 * `OpenAI o4-mini` in `Extendeed Thinking` mode
